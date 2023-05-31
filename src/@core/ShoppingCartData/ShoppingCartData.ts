@@ -3,8 +3,11 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IDProps, IShoppingCartDataProps, ShoppingCartItemsProps } from "./IShoppingCartData"
 
 const initialState: IShoppingCartDataProps = {
-    ID: "" as IDProps,
-    shoppingCartItems: {} as ShoppingCartItemsProps
+    ID: "21" as IDProps,
+    shoppingCartItems: {
+        banana: "20",
+        carne: "4kg",
+    } as ShoppingCartItemsProps
 }
 
 export const ShoppingCartDataSlice = createSlice({
