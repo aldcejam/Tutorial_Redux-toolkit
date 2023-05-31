@@ -1,3 +1,4 @@
+fundamentais para o funcionamento:
 - Configurações:
     - src
         - redux.config
