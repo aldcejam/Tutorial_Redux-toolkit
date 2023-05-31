@@ -1,6 +1,6 @@
 fundamentais para o funcionamento:
 )Configurações:
-|--src
+|--src </br>
 |  |--redux.config
 |  |  |hook.ts
 |  |  |store.ts
